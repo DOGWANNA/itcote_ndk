@@ -70,7 +70,7 @@ public class 큰수의법칙_002 {
             int first = list.get(0);
             int second = list.get(1);
 
-            int count = 0;
+            int count;
             count = (M / (K + 1)) * K; // 가장 큰 수가 더해지는 횟수 계산.
             count += M % (K + 1); // M이 K+1로 나누어 떨어지지 않을때 더해지는 횟수.
 

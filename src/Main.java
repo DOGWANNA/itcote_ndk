@@ -1,10 +1,10 @@
-import 그리디_01.큰수의법칙_002;
+import 그리디_01.숫자카드게임_003;
 
 public class Main {
     public static void main(String[] args) {
-        큰수의법칙_002 obj = new 큰수의법칙_002();
+        숫자카드게임_003 obj = new 숫자카드게임_003();
 
-        int rs = obj.solve_02();
+        int rs = obj.solve();
         System.out.println(rs);
     }
 }
