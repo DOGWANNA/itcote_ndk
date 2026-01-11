@@ -18,8 +18,8 @@ public class 숫자카드게임_003 {
             int N = Integer.parseInt(st.nextToken()); // 가로 길이
             int M = Integer.parseInt(st.nextToken()); // 세로 길이
 
-            int[][] cards = new int[N][M];
-
+//            int[][] cards = new int[N][M];
+//
 //            for(int x=0; x<N; x++){
 //                st = new StringTokenizer(br.readLine());
 //
