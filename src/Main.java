@@ -1,11 +1,10 @@
-import 그리디_01.숫자카드게임_003;
-import 그리디_01.일이될때까지_004;
+import 주요알고리즘이론과실전문제_02.상하좌우;
 
 public class Main {
     public static void main(String[] args) {
-        일이될때까지_004 obj = new 일이될때까지_004();
+        상하좌우 obj = new 상하좌우();
 
-        int rs = obj.solve();
+        String rs = obj.solve();
         System.out.println(rs);
     }
 }
